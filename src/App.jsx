@@ -1,5 +1,6 @@
 const App = () => {
   return (
+    <>
     <div className="flex justify-center min-h-screen items-center bg-special-mainBg">
       {/* container start */}
       <div className="w-full max-w-sm">
@@ -110,6 +111,7 @@ const App = () => {
       </div>
       {/* container end */}
     </div>
+    </>
   );
 };
 
