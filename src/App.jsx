@@ -7,7 +7,7 @@ const App = () => {
   const myRouter = createBrowserRouter([
     {
       path: "/",
-      element: <div>Halaman Utama</div>,
+      element: <SignInPage />,
       errorElement: <ErrorRoute />,
     },
     {
