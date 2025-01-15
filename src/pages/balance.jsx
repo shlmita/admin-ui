@@ -4,8 +4,8 @@ import MainLayout from "../components/Layouts/MainLayout";
 const BalancePage = () => {
   return (
     <MainLayout type="balance">
-      {/* top content start*/}
-      <div className="md:grid md:grid-cols-3 md:gap-6">
+        {/* top content start*/}
+        <div className="md:grid md:grid-cols-3 md:gap-6">
             <Card title="Balances" />
             <Card title="&nbsp;" />
             <Card 
@@ -24,6 +24,7 @@ const BalancePage = () => {
             <Card />
         </div>
         {/* bottom content end*/}
+        
     </MainLayout>
   );
 };
